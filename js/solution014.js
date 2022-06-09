@@ -2,13 +2,13 @@ function yep (string){
     let array = string.split(' ')
   
     for(let i =0;i>array.length;i++){
-        let x=array[i]
-        x.replace(x[0],"")
+        
+     array[i].replace(array[i][0],array[i][0].toUpperCase())
     }
     return array
     
 }
-console.log(yep('egg egg'))
+console.log(yep('egg egg egg'))
 
 
 
